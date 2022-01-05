@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-Token = "1611999120:AAEjmujFfVNAZoh4Y2Oq8WtPFnJSuJHnyvA"
+Token = "Token"
 kategoria, sity = range(2)
 
 
@@ -14,7 +14,7 @@ def sity(update, context) -> int:
 
         response = requests.get(
             "https://pfa.foreca.com/authorize/token?expire_hours=2",
-            params={"user": "igor-ud", "password": "eEdDgN6FrNke9jTpBC"},
+            params={"user": "igor-ud", "password": "password"},
         )
 
         data = response.json()
